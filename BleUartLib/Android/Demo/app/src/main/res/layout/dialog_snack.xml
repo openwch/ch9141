@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/sb_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:text="通过电子邮箱"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@android:color/background_dark"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E6E2E2"/>
+    <TextView
+        android:id="@+id/sb_sns"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:text="通过第三方软件"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@android:color/background_dark"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DAD6D6"/>
+
+    <TextView
+        android:id="@+id/sb_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:text="取消"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@android:color/background_dark"/>
+</LinearLayout>

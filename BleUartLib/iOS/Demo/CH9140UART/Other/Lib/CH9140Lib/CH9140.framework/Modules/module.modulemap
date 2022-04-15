@@ -1,0 +1,6 @@
+framework module CH9140 {
+  umbrella header "CH9140.h"
+
+  export *
+  module * { export * }
+}

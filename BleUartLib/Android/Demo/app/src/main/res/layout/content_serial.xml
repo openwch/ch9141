@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/status_main"
+    android:layout_marginTop="@dimen/margin_layout_1"
+    android:layout_marginStart="@dimen/margin_layout_2"
+    android:layout_marginEnd="@dimen/margin_layout_2"
+    >
+    <TextView
+        android:text="@string/label_status_serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="center"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/serial_info"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_status_bluetooth_text"
+        android:text="未同步串口参数"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_set_serial"
+        android:layout_width="@dimen/width_btn"
+        android:layout_height="@dimen/height_btn"
+        android:background="@drawable/btn_round"
+        android:layout_marginStart="@dimen/margin_status_bluetooth_text"
+        android:text="@string/btn_set_serial"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        android:enabled="false"
+        />
+</LinearLayout>

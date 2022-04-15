@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">BleUart</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="menu_set_serial_port">设置串口</string>
+    <string name="menu_set_mtu">设置MTU</string>
+    <string name="label_status_bluetooth">蓝牙：</string>
+    <string name="info_no_device">未发现设备</string>
+    <string name="label_status_serial">串口：</string>
+    <string name="info_no_serial">无串口信息</string>
+    <string name="radio_save_file">保存至文件</string>
+    <string name="radio_show_now">实时显示</string>
+    <string name="receive_count">接收:</string>
+    <string name="format">HEX</string>
+    <string name="init_count">0 字节</string>
+    <string name="receive_speed">速度:</string>
+    <string name="receive_notify">接收通知数据</string>
+    <string name="label_save_file">正保存至文件：</string>
+    <string name="clear">清空</string>
+    <string name="read">读取</string>
+    <string name="share_data">分享数据</string>
+    <string name="send_count">发送:</string>
+    <string name="init_send">0 字节</string>
+    <string name="send_speed">速度:</string>
+    <string name="send_interval">发送间隔</string>
+    <string name="interval_default">默认10</string>
+    <string name="interval_unit">ms</string>
+    <string name="send_hint">在此输入</string>
+    <string name="choose_file">选择文件</string>
+    <string name="random_length">随机长度</string>
+    <string name="to">至</string>
+    <string name="length_min">1</string>
+    <string name="length_max">20</string>
+    <string name="send">发送</string>
+    <string name="btn_set">设置</string>
+    <string name="share">分享文件</string>
+    <string name="btn_set_send">设置发送</string>
+    <string name="btn_set_receive">设置接收</string>
+    <string name="btn_set_serial">设置串口</string>
+    <string name="device_list">设备列表</string>
+    <string name="close">关闭</string>
+    <string name="connect_ble">连接蓝牙</string>
+    <string name="disconnect_ble">断开连接</string>
+    <string name="model_monitor">监听模式</string>
+    <string name="model_debug">调试模式</string>
+    <string name="init_speed">0 字节/秒</string>
+    <string name="input_digital">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ</string>
+    <string name="send_interrupt">蓝牙流控</string>
+    <string name="interrupt_desc">开启蓝牙流控后每次发送前都会检查蓝牙缓冲区状态，只有该状态有效时才发送，该功能降低了发送速度但保证了数据传输的可靠性。
+        如果关闭该模式，则并不是每次都检查缓冲区状态。</string>
+    <string name="about">关于我们</string>
+
+    <string name="old_version">当前固件是旧版本，部分功能无法使用，请升级到新版本</string>
+    <string name="show_clear">实时显示并且内容长度超过1500字符时自动清空</string>
+    <string name="show_no_clear">实时显示并且不会自动清空内容</string>
+    <string name="show_pause">实时显示并且内容长度超过1500字符时暂停</string>
+
+    <string-array name="baud">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>1000000</item>
+    </string-array>
+    <string-array name="data">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+    <string-array name="stop">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="parity">
+        <item>无</item>
+        <item>奇校验</item>
+        <item>偶校验</item>
+        <item>标志位</item>
+        <item>空白位</item>
+    </string-array>
+</resources>

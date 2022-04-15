@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SplashModule</string>
+    <string name="btn_start">开始使用</string>
+</resources>

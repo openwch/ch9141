@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+    <ImageView
+        android:id="@+id/iv_launch_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorWhite"
+        android:scaleType="centerInside"
+        android:layout_margin="@dimen/dimens_10"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cl_height"
+        android:paddingBottom="@dimen/cl_padding_bottom"
+        android:paddingTop="@dimen/cl_padding_top"
+        android:background="@color/colorWhite"
+        >
+        <ImageView
+            android:id="@+id/iv_launch_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:visibility="invisible"
+            android:layout_width="@dimen/dimen_64"
+            android:layout_height="@dimen/dimen_30"
+            android:textColor="@color/colorBtnText"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/bg_btn_splash_skip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_launch_logo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

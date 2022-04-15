@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/ble_connect"
+        android:orderInCategory="90"
+        android:title="@string/connect_ble"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ble_disconnect"
+        android:orderInCategory="100"
+        android:title="@string/disconnect_ble"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/ble_set_mtu"
+        android:orderInCategory="90"
+        android:title="@string/menu_set_mtu"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/view_monitor"
+        android:orderInCategory="100"
+        android:title="@string/model_monitor"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/view_debug"
+        android:orderInCategory="110"
+        android:title="@string/model_debug"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="120"
+        android:title="@string/about"
+        app:showAsAction="never"
+        />
+</menu>

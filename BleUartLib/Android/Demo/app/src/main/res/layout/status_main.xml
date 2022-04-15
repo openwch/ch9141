@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+    <!--<include layout="@layout/content_bluetooth"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_content_serial"
+        >
+        <include layout="@layout/content_serial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_mini"
+            android:background="@color/colorGrey"
+            android:layout_marginTop="@dimen/margin_layout_1"
+            />
+        <include layout="@layout/content_modem"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_mini"
+            android:background="@color/colorGrey"
+            android:layout_marginTop="@dimen/margin_layout_1"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/content_data"/>
+
+
+</LinearLayout>
