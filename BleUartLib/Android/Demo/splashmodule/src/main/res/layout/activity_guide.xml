@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/circle_p"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/point1"
+                android:layout_width="@dimen/circle_p"
+                android:layout_height="@dimen/circle_p" />
+
+            <ImageView
+                android:id="@+id/point2"
+                android:layout_width="@dimen/circle_p"
+                android:layout_height="@dimen/circle_p"
+                android:layout_marginLeft="@dimen/circle_p"
+                android:layout_marginRight="@dimen/circle_p" />
+
+            <ImageView
+                android:id="@+id/point3"
+                android:layout_width="@dimen/circle_p"
+                android:layout_height="@dimen/circle_p"
+                 />
+
+            <ImageView
+                android:id="@+id/point4"
+                android:layout_width="@dimen/circle_p"
+                android:layout_height="@dimen/circle_p"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/ll_indicator"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@drawable/bg_btn_start"
+        android:text="@string/btn_start"
+        android:textSize="@dimen/guide_btn_text"
+        android:textColor="@color/colorWhite"
+        android:paddingStart="@dimen/guide_btn_padding"
+        android:paddingEnd="@dimen/guide_btn_padding"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':splashmodule'
+include ':ui'
+include ':app'
+rootProject.name = "CH9140UART"

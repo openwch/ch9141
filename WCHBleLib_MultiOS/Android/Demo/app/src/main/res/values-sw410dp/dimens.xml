@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="margin_status_bluetooth_text">5.6944dp</dimen>
+	<dimen name="corners_btn">5.6944dp</dimen>
+	<dimen name="width_btn">79.7222dp</dimen>
+	<dimen name="height_btn">34.1667dp</dimen>
+	<dimen name="height_mini">0.5694dp</dimen>
+	<dimen name="margin_layout_1">5.6944dp</dimen>
+	<dimen name="margin_layout_2">11.3889dp</dimen>
+	<dimen name="margin_layout_20">22.7778dp</dimen>
+	<dimen name="padding_layout_1">5.6944dp</dimen>
+	<dimen name="padding_layout_2">11.3889dp</dimen>
+	<dimen name="progress_height">9.1111dp</dimen>
+	<dimen name="width_btn_data">56.9444dp</dimen>
+	<dimen name="height_btn_data">34.1667dp</dimen>
+	<dimen name="width_btn_data_70">79.7222dp</dimen>
+	<dimen name="height_btn_data_30">34.1667dp</dimen>
+	<dimen name="text_size">17.0833sp</dimen>
+	<dimen name="text_size_small">14.8056sp</dimen>
+	<dimen name="spinner_item_height">39.8611dp</dimen>
+	<dimen name="dialogWidth">341.6667dp</dimen>
+	<dimen name="dialogHeight">455.5556dp</dimen>
+	<dimen name="text_size_20">22.7778sp</dimen>
+	<dimen name="width_300">341.6667dp</dimen>
+	<dimen name="width_270">307.5000dp</dimen>
+	<dimen name="height_50">56.9444dp</dimen>
+	<dimen name="text_size_16">18.2222sp</dimen>
+	<dimen name="width_250">284.7222dp</dimen>
+	<dimen name="margin_24">27.3333dp</dimen>
+	<dimen name="width_30">34.1667dp</dimen>
+	<dimen name="text_size_15">17.0833sp</dimen>
+	<dimen name="text_size_12">13.6667sp</dimen>
+	<dimen name="margin_15">17.0833dp</dimen>
+	<dimen name="margin_18">20.5000dp</dimen>
+	<dimen name="dp_50">56.9444dp</dimen>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout_2"
+        android:background="@drawable/ll_round"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_layout_2"
+            android:layout_marginStart="@dimen/margin_layout_2"
+            android:layout_marginEnd="@dimen/margin_layout_2"
+            android:layout_marginBottom="@dimen/margin_15"
+
+            >
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改MTU"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_layout_1"
+            android:layout_marginStart="@dimen/margin_layout_2"
+            android:layout_marginEnd="@dimen/margin_layout_2"
+
+            >
+
+            <EditText
+                android:id="@+id/mtu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="#000000"
+                android:maxLines="1"
+
+                android:hint="23-247"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginStart="@dimen/margin_layout_2"
+            android:layout_marginEnd="@dimen/margin_layout_2"
+
+            >
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="@dimen/width_btn_data_70"
+                android:layout_height="@dimen/height_btn_data_30"
+                android:layout_gravity="center"
+                android:text="取消"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/btn_transparent"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="@dimen/text_size_small"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                >
+            </LinearLayout>
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="@dimen/width_btn_data_70"
+                android:layout_height="@dimen/height_btn_data_30"
+                android:layout_gravity="center"
+                android:text="确定"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/btn_transparent"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="@dimen/text_size_small"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

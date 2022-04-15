@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CH9140DLLDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CH9140DLLDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CH9140DLLDemo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "CH9140DLLDemo，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2020",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_CH9140DLLDEMO_DIALOG DIALOGEX 0, 0, 405, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CH9140DLLDemo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "查询控制器版本",IDC_BUTTON_VERSION,7,10,50,14
+    PUSHBUTTON      "刷新设备",IDC_BUTTON_SCANDEV,7,29,50,14
+    PUSHBUTTON      "打开设备",IDC_BUTTON_OPENDEV,6,48,50,14
+    CONTROL         "",IDC_LIST_DEV,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,62,0,342,73
+    LTEXT           "波特率",IDC_STATIC,6,83,22,8
+    COMBOBOX        IDC_COMBO_BUAD,28,82,48,117,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "数据位",IDC_STATIC,87,83,22,8
+    COMBOBOX        IDC_COMBO_DATA,109,82,48,115,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "停止位",IDC_STATIC,168,83,22,8
+    COMBOBOX        IDC_COMBO_STOP,190,82,48,118,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "校验位",IDC_STATIC,249,83,22,8
+    COMBOBOX        IDC_COMBO_CHECK,271,82,48,116,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "硬件串口自动流控(CTS/RTS)",IDC_CHECK_FLOWCTRL,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,299,98,101,10
+    PUSHBUTTON      "设置串口",IDC_BUTTON_SETCOM,351,81,50,14,WS_DISABLED
+    LTEXT           "Modem Status",IDC_STATIC,6,99,46,8
+    CONTROL         "CTS",IDC_CHECK_CTS,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,61,98,29,10
+    CONTROL         "DSR",IDC_CHECK_DSR,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,101,98,29,10
+    CONTROL         "RING",IDC_CHECK_RING,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,141,98,31,10
+    CONTROL         "DCD",IDC_CHECK_DCD,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,98,29,10
+    CONTROL         "RTS",IDC_CHECK_RTS,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,223,98,29,10
+    CONTROL         "DTR",IDC_CHECK_DTR,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,263,98,29,10
+    LTEXT           "接收区:",IDC_STATIC,6,118,24,8
+    CONTROL         "16进制显示",IDC_CHECK_HEXRECV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,117,48,10
+    PUSHBUTTON      "接收清空",IDC_BUTTON_CLRREAD,148,115,50,14
+    EDITTEXT        IDC_EDIT_READ,0,132,202,127,ES_MULTILINE | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "发送区:",IDC_STATIC,210,118,24,8
+    CONTROL         "16进制发送",IDC_CHECK_HEXSEND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,251,117,48,10
+    PUSHBUTTON      "发送清空",IDC_BUTTON_CLRSEND,299,115,50,14
+    EDITTEXT        IDC_EDIT_WRITE,203,132,202,127,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "发送特征值",IDC_BUTTON_SEND,351,115,50,14,WS_DISABLED
+    EDITTEXT        IDC_EDIT_READHEX,0,132,202,127,ES_MULTILINE | ES_READONLY | ES_WANTRETURN | NOT WS_VISIBLE | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CH9140DLLDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "CH9140DLLDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 CH9140DLLDemo(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CH9140DLLDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/colorWhite"/>
+    <item android:bottom="5dp">
+        <bitmap android:src="@drawable/example"
+                android:gravity="center"
+
+            />
+    </item>
+    <!--<item
+        android:bottom="55dp"
+        >
+        <bitmap
+            android:src="@drawable/ic_logo_shape"
+            android:gravity="bottom"/>
+    </item>-->
+</layer-list>

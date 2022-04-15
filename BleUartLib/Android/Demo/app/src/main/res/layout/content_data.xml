@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:showIn="@layout/status_main"
+   >
+    <include layout="@layout/content_data_receive"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mini"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="@dimen/margin_layout_1"
+        />
+    <include layout="@layout/content_data_send"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+</LinearLayout>

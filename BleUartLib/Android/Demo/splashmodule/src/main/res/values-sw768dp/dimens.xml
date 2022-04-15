@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="cl_height">128.0000dp</dimen>
+	<dimen name="cl_padding_top">21.3333dp</dimen>
+	<dimen name="cl_padding_bottom">21.3333dp</dimen>
+	<dimen name="circle_p">14.9333dp</dimen>
+	<dimen name="guide_btn_text">32.0000sp</dimen>
+	<dimen name="guide_btn_padding">53.3333dp</dimen>
+	<dimen name="margin_1">8.5333dp</dimen>
+	<dimen name="dimens_10">21.3333dp</dimen>
+	<dimen name="dimens_30">64.0000dp</dimen>
+	<dimen name="dimen_64">136.5333dp</dimen>
+	<dimen name="dimen_30">64.0000dp</dimen>
+</resources>

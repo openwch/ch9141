@@ -1,0 +1,6 @@
+framework module WCHBLELibrary {
+  umbrella header "WCHBLELibrary.h"
+
+  export *
+  module * { export * }
+}
